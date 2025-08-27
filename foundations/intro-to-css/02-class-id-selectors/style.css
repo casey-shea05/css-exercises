@@ -1,0 +1,19 @@
+.default {
+    background-color: #ffb6c1;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#unique-1 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.default.bigger {
+    font-size: 24px;
+}
+
+#unique-2 {
+    background-color: #90ee90;;
+    font-size: 24px;
+    font-weight: bold;
+}
