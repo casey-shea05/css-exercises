@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
 
-  display: flex;
   padding: 8px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -22,15 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 12px;
-}
-
-.left-links {
-  margin-right: auto;
-}
-
-.right-links {
-  margin-left: auto;
+  gap: 8px;
 }
 
 a {
