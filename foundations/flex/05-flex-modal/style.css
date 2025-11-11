@@ -38,24 +38,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1 1 0%;
+
+  flex-shrink: 0;
 }
 
-.main {
-  flex: 10 1 0%;
-}
+.header {
+  font-weight: 700;
+  font-size: 18px;
 
-.main-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   margin-bottom: 8px;
-}
-
-.header {
-  font-weight: bold;
-  font-size: 18px;
 }
 
 .text {
