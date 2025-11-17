@@ -29,41 +29,25 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.header {
+.header, .footer{
   display: flex;
   justify-content: space-between;
-}
-
-.left-links {
-  display: flex;
-  justify-content: flex-start;
-  gap: 16px;
-
-  margin: 16px;
-  padding: 0;
-}
-
-.right-links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-
-  margin: 16px;
-  padding: 0;
+  padding: 16px;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-
   background-color: #eeeeee;
 }
 
 ul {
   list-style: none;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -73,6 +57,7 @@ a {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
